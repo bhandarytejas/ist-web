@@ -1,0 +1,331 @@
+body {
+    overflow: scroll;
+    background-color: black;
+    color: #F36E21;
+}
+
+#ist-logo {
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+}
+
+#ban-text {
+    color: #F36E21;
+    font-family: Montserrat,sans-serif;
+    font-size: 4vw;
+    letter-spacing: 2px;
+    display:inline;
+    margin: 0;
+    padding-right: 25px;
+    overflow: hidden;
+}
+
+#quote-title {
+    text-align: center;
+    font-style: oblique;
+    font-family: sans-serif;
+    font-size: 45px;
+}
+
+#quote-description {
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#quote-quote {
+    text-align: center;
+    font-style: italic;;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+#quote-quoteAuthor {
+    text-align: right;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.banner {
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.quote1 {
+    display: inline;
+    left:2000px;
+}
+
+.main-div div {
+
+}
+
+.click-menu {
+    background-color: #006680;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    width: 100px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /*margin: 10px;*/
+    cursor: pointer;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+.ug {
+    left:1500px;
+}
+
+.grad {
+    left:2900px;
+}
+
+.degree-name {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35px;
+    margin: 35px 0px 25px 0px;
+}
+
+.degree-head {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.degree-tab {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35px;
+}
+
+.ug-degree {
+    width: 370px;
+    height: 400px;
+    display: inline;
+    float: left;
+    margin: 25px;
+}
+
+.degree-title {
+    text-align: center;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 25px;
+    height: 65px;
+}
+
+.degree-desc {
+    text-align: center;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 15px;
+    height: 80px;
+}
+
+.ug-minor {
+    font-style: normal;
+    font-family: sans-serif;
+    width: 100%;
+    height: 90%;
+}
+
+.for-tab {
+    height: 100%;
+    width: 100%;
+}
+
+
+.ugMainTabs {
+}
+
+.box-hidden {
+    display: none;
+    text-align:center;
+}
+
+.minor {
+    color: black;
+    height: 470px !important;
+}
+
+.box-title {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.box-line-1 {
+    font-size: 18px;
+}
+
+.conc {
+    font-size: 15px;
+}
+
+.lineForBox {
+    color: #e3e3e3;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.col-2 {
+    columns: 2;
+    color: #cf000f;
+    width: 75%;
+    left: 25px;
+}
+
+
+a {
+    color: ac00e6;
+}
+
+.course {
+    border: 1.5px solid #cf000f;
+    width: 100%;
+    padding: 5px;
+    font-size: 25px;
+    color: #006bb3;
+}
+
+
+.certificate {
+    display: inline;
+    width: 625px;
+    height: 250px;
+    float: left;
+    font-size: 25px;
+}
+
+.image {
+    padding:25px;
+}
+
+.emp {
+    left:4300px;
+}
+
+.content {
+    width: 45%;
+    height: 250px;
+    display: inline-block;
+    float: left;
+    margin: 15px;
+    border: solid 2px #93e519;
+    text-align: center;
+}
+
+.content-header {
+}
+
+.content-desc {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.emp-stats {
+    text-align: center;
+    width: 20%;
+    height: 100px;
+    display: inline-block;
+    float: left;
+    margin: 29px;
+    color: white;
+}
+
+.emp-stats-0 {
+    background-color: #68c3a3;
+}
+
+
+.emp-stats-1 {
+    background-color: #2c3e50;
+}
+
+.emp-stats-2 {
+    background-color: #d64541;
+}
+
+.emp-stats-3 {
+    background-color: #68c3a3;
+}
+
+
+.emp-num {
+    font-size: 25px;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+    border: solid 1px #F36E21;
+}
+
+
+.coopTab {
+    border-collapse: collapse;
+    width: 100%;
+    display: none;
+}
+
+.coopRow {
+    text-align: left;
+    padding: 8px;
+    margin: 1px;
+    font-size: 15px;
+}
+
+.coopRow:nth-child(even){background-color: #f2f2f2}
+
+.coopTabHead {
+    margin: 3px;
+    font-size: 20px;
+    text-align: left;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.coop {
+    height: 200px;
+    width: 35%;
+    background-color: #019875;
+    text-align: center;
+    float: left;
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    margin: 20px;
+}
+
+
+.web-block {
+    /*margin-top: 25px;*/
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 75px;
+    width: 1350px;
+    height: 475px;
+    float: left;
+    display: inline;
+    position: absolute;
+}
+
+@supports (-webkit-appearance:none) {
+    .web-block {
+        top: -250px;
+    }
+}
